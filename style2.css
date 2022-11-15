@@ -1,0 +1,280 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+    background-color: greenyellow;
+}
+
+.container {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box1 {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation-name: abhi;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes abhi {
+    0% {
+        transform: skewx(35deg);
+    }
+
+    100% {
+        transform: skewx(-35deg);
+    }
+}
+
+.box2 {
+    width: 100%;
+    height: 30vh;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.item1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(145, 115, 25);
+    animation-name: singh;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes singh {
+    0% {
+        transform: skewy(35deg);
+    }
+
+    100% {
+        transform: skewy(-35deg);
+    }
+}
+
+.box3 {
+    width: 100%;
+    height: 30vh;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.item2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(222, 80, 8);
+    animation-name: chauhan;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes chauhan {
+    100% {
+        transform: rotate(360deg);
+    }
+
+
+}
+
+.box4 {
+    width: 100%;
+    height: 30vh;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.item3 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(55, 21, 3);
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotatex(60deg);
+    }
+
+
+}
+
+.item4 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(118, 7, 55);
+    animation-name: rotatey;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes rotatey {
+    100% {
+        transform: rotatey(60deg);
+    }
+
+
+}
+
+.item5 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(7, 118, 9);
+    animation-name: rotatez;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes rotatez {
+    100% {
+        transform: rotatez(180deg);
+    }
+
+
+}
+
+a {
+    font-size: 50px;
+    text-align: center;
+}
+#head{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+.box{
+
+}
+.box{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.item6 {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: rgb(16, 104, 24);
+    transition: 2s;
+    transition-property: width;
+}
+.item6:hover{
+    width: 600px;
+}
+
+.item7 {
+    width: 150px;
+    height: 150px;
+     margin: 20px;
+     background-color: rgb(16, 104, 24);
+    transition: 2s;
+    transition-property: all;
+    transition-timing-function: ease-in;
+}
+.item7:hover{
+    width: 400px;
+    height: 400px;
+}
+
+
+.item8 {
+    width: 150px;
+    height: 150px;
+     margin: 20px;
+     background-color: rgb(16, 104, 24);
+    transition: 2s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
+.item8:hover{
+    width: 600px;
+}
+
+
+.item9 {
+    width: 150px;
+    height: 150px;
+     margin: 20px;
+     background-color: rgb(16, 104, 24);
+    transition: 2s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+}
+.item9:hover{
+    width: 600px;
+}
+
+
+.item10 {
+    width: 150px;
+    height: 150px;
+     margin: 20px;
+     background-color: rgb(16, 104, 24);
+    transition: 2s;
+    transition-property: all;
+    transition-timing-function: ease-in;
+}
+.item10:hover{
+    width: 600px;
+}
+
+
+.item11 {
+    width: 150px;
+    height: 150px;
+     margin: 20px;
+     background-color: rgb(16, 104, 24);
+    transition: 2s;
+    transition-property: all;
+    transition-timing-function:ease-in-out;
+}
+.item11:hover{
+    width: 600px;
+}
+
+.item12 {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: rgb(16, 104, 24);
+    transition: 2s;
+    transition-property: all;
+    transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.item12:hover{
+    width: 600px;
+}
